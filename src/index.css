@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+.main-color {
+  color: #ffbe33;
+}
+
+.bg-main-color {
+  color: #ffbe33;
+}
+
+.main-color:hover {
+  color: #d99e1f;
+}
+
+.sec_color {
+  color: #222831;
+}
+
+.sec_bg {
+  background-color: #222831;
+}
+
+.main-font {
+  font-family: "Open Sans", sans-serif;
+  font-size: 32px;
+}
+
+.sec-font {
+  font-family: "Dancing Script", cursive;
+  font-size: 32px;
+}
+
+.home-font {
+  font-family: "Dancing Script", cursive;
+  font-size: 56px;
+  line-height: 67px;
+  font-weight: 700;
+}
+
+.nice-font {
+  font-family: "Dancing Script", cursive;
+}
+
+/* menu page css */
+.title-menu {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+}
+
+.img-menu {
+  /* width: 152.188px;
+  height: 144.988px; */
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+}
+
+.img-box-menu {
+  border-radius: 18px 18px 0 45px;
+  height: 215px;
+  padding: 25px;
+  -webkit-border-radius: 18px 18px 0 45px;
+  -moz-border-radius: 18px 18px 0 45px;
+  -ms-border-radius: 18px 18px 0 45px;
+  -o-border-radius: 18px 18px 0 45px;
+}
+
+.box-menu {
+  border-radius: 20px;
+  
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.box-menu:hover .img-menu  {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
